@@ -1,1 +1,3 @@
-# ChatGPT-Best-Prompts
+# Stable Diffusion ChatGPT Prompt Generators
+
+Info be later...
