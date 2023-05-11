@@ -1,6 +1,6 @@
-Example result(Magic cat, beautiful lights):
+Example result(By using a similar syntax, please write me a new "prompt for stable diffusion" of a “photo of magic cat, beautiful lights”, add more details):
 
-1) By using a similar syntax, please write me a new "prompt for stable diffusion" of a “photo of magic cat, beautiful lights”, add more details
+1) Mesmerizing photo of a magical cat surrounded by beautiful lights, enchanting, whimsical, surreal, vibrant colors, glowing, mystical, captivating, digitally enhanced, intricate details, highly realistic, sharp focus, stunning composition, artfully crafted, spellbinding, evocative, art by Alex Andreev, Paul Kidby, and Jasmine Becket-Griffith. Perfect for lovers of fantasy, cats, and art enthusiasts seeking a visually stunning masterpiece.
 
 ----------
 
