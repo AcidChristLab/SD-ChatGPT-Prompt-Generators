@@ -1,0 +1,95 @@
+Example result(Magic cat, beautiful lights):
+
+1) "A magical black cat with glowing eyes, surrounded by floating orbs of shimmering light, in a mystical forest illuminated by bioluminescent mushrooms and fireflies. The cat's fur is silky and smooth, reflecting the colors of the surrounding lights. The scene is detailed and intricate, with a dreamlike quality, painted in a style reminiscent of art nouveau."
+
+2) "A whimsical painting of a white cat with a playful expression, sitting on a windowsill and looking out at the starry night sky. The windowsill is decorated with a string of twinkling fairy lights, casting a warm and cozy glow on the cat's fluffy fur. The scene is painted in soft, pastel colors, with a touch of glitter and sparkle to add a magical touch."
+
+3) "An ethereal digital painting of a mystical cat with iridescent fur, sitting on a crescent moon, surrounded by a halo of shimmering stars and galaxies. The scene is painted in a cosmic, otherworldly style, with vibrant neon colors and intricate details that make the cat and the surrounding lights look almost alive."
+
+4) "A charming watercolor illustration of a ginger cat with piercing green eyes, curled up on a fluffy pillow and gazing up at a magical, floating lantern. The lantern is adorned with intricate patterns and colorful gems, casting a warm and enchanting glow on the cat's cozy surroundings. The scene is painted in soft, delicate strokes, with a dreamy, whimsical feel."
+
+5) "A dramatic oil painting of a black cat with piercing blue eyes, standing on a cliff overlooking a mystical landscape filled with glowing crystals, floating lanterns, and shimmering auroras. The cat is depicted in exquisite detail, with its fur and whiskers blowing in the wind, as it takes in the beauty of the magical world before it. The scene is painted in rich, vibrant colors, with a striking contrast between light and shadow."
+
+----------
+
+#### 1st Part #### [paste this part first]
+ 
+- Reference guide of what is Stable Diffusion and how to Prompt -
+Stable Diffusion is a deep learning model primarily designed for generating images based on text descriptions. Besides its primary function, it can also be applied to inpainting, outpainting, and image-to-image translations guided by text prompts.
+Developing a good prompt is crucial for generating high-quality images. A good prompt should be detailed and specific, incorporating keyword categories such as subject, medium, style, artist, website, resolution, additional details, color, and lighting. Combining these keywords generates a more accurate representation of the desired image. Popular keywords include "digital painting," "portrait," "concept art," "hyperrealistic," and "pop-art." Mentioning a specific artist or website can also strongly influence the image's style.
+For example, to create an image of Emma Watson as a sorceress, a prompt could be: "Emma Watson as a powerful mysterious sorceress, casting lightning magic, detailed clothing, digital painting, hyperrealistic, fantasy, surrealist, full body." This detailed prompt helps the model generate an image more accurately aligned with the desired outcome.
+Artist names can be used as strong modifiers to create a specific style by blending the techniques of multiple artists. For instance, combining the styles of Stanley Artgerm Lau, a superhero comic artist, and Alphonse Mucha, a 19th-century portrait painter, results in a unique fusion of their artistic approaches.
+Websites like Artstation and DeviantArt offer numerous images in various genres, and incorporating them in a prompt can help guide the image towards these styles. Adding details such as resolution, color, and lighting can enhance the image further. For instance, specifying keywords like "highly detailed," "sharp focus," "iridescent gold," "cinematic lighting," and "dark" can lead to a more vivid and visually striking image.
+Building a good prompt is an iterative process. Start with a simple prompt including the subject, medium, and style, and then gradually add one or two keywords to refine the image. Using a universal negative prompt can help avoid unwanted elements.
+In the AUTOMATIC1111 GUI, you can adjust the weight of a keyword using the syntax (keyword: factor), where a factor less than 1 means less important and larger than 1 means more important. Alternatively, you can use the () and [] syntax to increase or decrease the keyword's strength.
+Keyword blending or prompt scheduling can be achieved using the syntax [keyword1: keyword2: factor]. The factor, a number between 0 and 1, determines at which step keyword1 is switched to keyword2. This technique allows for a smooth transition between two different keywords, creating a unique blend in the final image.
+Keyword blending can generate similar images with slight edits. However, the factor must be carefully adjusted. The overall composition of the image is determined by the early diffusion process, with keyword changes only affecting a small part of the image.
+Stable Diffusion service may have a limit on the number of keywords used in a prompt. In the basic Stable Diffusion v1 model, the limit is 75 tokens. Tokens are numerical representations of words. AUTOMATIC1111, however, has no token limits, processing chunks of 75 tokens independently.
+Association effects occur when certain attributes are strongly correlated. For instance, specifying eye color in a prompt might result in specific ethnicities being generated. Celebrity names can also carry unintended associations, affecting the pose or outfit in the image. Artist names, too, can influence the generated images.
+In summary, Stable Diffusion is a powerful deep learning model for generating images based on text descriptions. It can also be applied to inpainting, outpainting, and image-to-image translations guided by text prompts. Developing a good prompt is essential for generating high-quality images, and users should carefully consider keyword categories and experiment with keyword blending and negative prompts. By understanding the intricacies of the model and its limitations, users can unlock the full potential of Stable Diffusion to create stunning, unique images tailored to their specific needs.
+--
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+#### 2nd Part #### [paste this part after]
+ 
+Stable Diffusion is an AI art generation model similar to DALLE-2. Below is a list of prompts that can be used to generate images with Stable Diffusion.
+ 
+- Examples -
+"masterpiece, best quality, high quality, extremely detailed CG unity 8k wallpaper, The vast and quiet taiga stretches to the horizon, with dense green trees grouped in deep harmony, as the fresh breeze whispers through their leaves and crystal snow lies on the frozen ground, creating a stunning and peaceful landscape, Bokeh, Depth of Field, HDR, bloom, Chromatic Aberration, Photorealistic, extremely detailed, trending on artstation, trending on CGsociety, Intricate, High Detail, dramatic, art by midjourney"
+ 
+"a painting of a woman in medieval knight armor with a castle in the background and clouds in the sky behind her, (impressionism:1.1), ('rough painting style':1.5), ('large brush texture':1.2), ('palette knife':1.2), (dabbing:1.4), ('highly detailed':1.5), professional majestic painting by Vasily Surikov, Victor Vasnetsov, (Konstantin Makovsky:1.3), trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic"
+ 
+"masterpiece, best quality, high quality, extremely detailed CG unity 8k wallpaper,flowering landscape, A dry place like an empty desert, dearest, foxy, Mono Lake, hackberry,3D Digital Paintings, award winning photography, Bokeh, Depth of Field, HDR, bloom, Chromatic Aberration, Photorealistic, extremely detailed, trending on artstation, trending on CGsociety, Intricate, High Detail, dramatic, art by midjourney"
+ 
+"the middle plan, a car, in the steampunk style, cinematographic, (((hdr))), crafted, elegant, meticulous, magnificent, maximum details, extremely hyper aesthetic, intricately detailed"
+ 
+"portrait of french women in full steel knight armor, highly detailed, heart professional majestic oil painting by Vasily Surikov, Victor Vasnetsov, Konstantin Makovsky, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic"
+ 
+"digital painting of majestic waves crashing against a tall lit lighthouse in the distance at dawn, sea, clouds, bokeh, detailed landscape, moon, wind, fog, seagulls flying, lines by conrad roset, brush strokes by yoji shinkawa, colors by makoto shinkai, watercolor by haccan, trending on artstation"
+ 
+"teen girl in hoodie sitting on the floor on the street, by Dustin Nguyen, Akihiko Yoshida, Greg Tocchini, Greg Rutkowski, Cliff Chiang, 4k resolution, detailed render, post-processing, hyperdetailed face, face at camera, epic background"
+ 
+"(extremely detailed CG unity 8k wallpaper), full shot photo of the most beautiful artwork of a medieval castle, snow falling, nostalgia, grass hills, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski"
+ 
+"(masterpiece), (extremely intricate:1.3), (realistic), portrait of a girl, the most beautiful artwork in the world, (medieval armor), metal reflections, upper body, outdoors, intense sunlight, far away castle, professional oil painting of a stunning woman by Ed Blinkey and Atey Ghailan and Jeremy Mann and Greg Rutkowski, detailed, sharp focus, dramatic, award winning, matte drawing, cinematic lighting, octane render, unreal engine, volumetrics dtx"
+ 
+"micro-details, fine details, a painting of a fox, fur, art by Pissarro, fur, (embossed painting texture:1.3), (large brush strokes:1.6), (fur:1.3), acrylic, inspired in a painting by Camille Pissarro, painting texture, micro-details, fur, fine details, 8k resolution, majestic painting, artstation hd, detailed painting, highres, most beautiful artwork in the world, highest quality, texture, fine details, painting masterpiece"
+ 
+"(8k, RAW photo, highest quality), beautiful girl, close up, t-shirt, (detailed eyes:0.8), (looking at the camera:1.4), (highest quality), (best shadow), intricate details, interior, (ponytail, ginger hair:1.3), dark studio, muted colors, freckles"
+ 
+"(dark shot:1.1), epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink, female pilot, art by greg rutkowski and artgerm, soft cinematic light, adobe lightroom, photolab, hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15)"
+ 
+"Architectural digest photo of a maximalist green solar living room with lots of flowers and plants, golden light, hyperrealistic surrealism, award winning masterpiece with incredible details, epic stunning pink surrounding and round corners, big windows"
+ 
+ 
+- Explanation -
+The following elements are a description of the prompt structure. You should not include the label of a section like "Scene description:".
+ 
+Scene description: A short, clear description of the overall scene or subject of the image. This could include the main characters or objects in the scene, as well as any relevant background.
+ 
+Modifiers: A list of words or phrases that describe the desired mood, style, lighting, and other elements of the image. These modifiers should be used to provide additional information to the model about how to generate the image, and can include things like "dark, intricate, highly detailed, sharp focus, Vivid, Lifelike, Immersive, Flawless, Exquisite, Refined, Stupendous, Magnificent, Superior, Remarkable, Captivating, Wondrous, Enthralling, Unblemished, Marvelous, Superlative, Evocative, Poignant, Luminous, Crystal-clear, Superb, Transcendent, Phenomenal, Masterful, elegant, sublime, radiant, balanced, graceful, 'aesthetically pleasing', exquisite, lovely, enchanting, polished, refined, sophisticated, comely, tasteful, charming, harmonious, well-proportioned, well-formed, well-arranged, smooth, orderly, chic, stylish, delightful, splendid, artful, symphonious, harmonized, proportionate".
+ 
+Artist or style inspiration: A list of artists or art styles that can be used as inspiration for the image. This could include specific artists, such as "by artgerm and greg rutkowski, Pierre Auguste Cot, Jules Bastien-Lepage, Daniel F. Gerhartz, Jules Joseph Lefebvre, Alexandre Cabanel, Bouguereau, Jeremy Lipking, Thomas Lawrence, Albert Lynch, Sophie Anderson, Carle Van Loo, Roberto Ferri" or art movements, such as "Bauhaus cubism."
+ 
+Technical specifications: Additional information that evoke quality and details. This could include things like: "4K UHD image, cinematic view, unreal engine 5, Photorealistic, Realistic, High-definition, Majestic, hires, ultra-high resolution, 8K, high quality, Intricate, Sharp, Ultra-detailed, Crisp, Cinematic, Fine-tuned"
+ 
+- Prompt Structure -
+The structure sequence can vary. However, the following is a good reference:
+ 
+[Scene description]. [Modifiers], [Artist or style inspiration], [Technical specifications]
+ 
+- Special Modifiers -
+In the examples you can notice that some terms are closed between (). That instructes the Generative Model to take more attention to this words. If there are more (()) it means more attention.
+Similarly, you can find a structure like this (word:1.4). That means this word will evoke more attention from the Generative Model. The number "1.4" means 140%. Therefore, if a word whitout modifiers has a weight of 100%, a word as in the example (word:1.4), will have a weight of 140%.
+You can also use these notations to evoke more attention to specific words.
+ 
+- Your Task -
+Based on the examples and the explanation of the structure, you will create 5 prompts. I my next requests I will use the command /Theme [ description of the theme]. Then, execute your task based on the description of the theme.
+ 
+--
+Acknowledge that you understood the instructions.
