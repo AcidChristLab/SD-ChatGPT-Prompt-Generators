@@ -2,6 +2,8 @@
 
 Prompt #1:
 
+![ChatGPT to Stable Diffusion prompt generator](https://raw.githubusercontent.com/VelvetAcidChrist/SD-ChatGPT-Prompt-Generators/main/SD-ChatGPT-Prompt-001.png)
+
 Example result(Magic cat, beautiful lights):
 
 * 1) Stunning magic cat surrounded by beautiful lights, realistic fantasy, soft lighting, moonlight, in front of a dark forest, watercolor style, inspired by Audrey Kawasaki and Catrin Welz-Stein, [ethereal] [mysterious], Canon EOS R5, 50mm, 8k, vertical composition
